@@ -47,8 +47,6 @@ function App() {
           <Route path="/edit/:id" element={<Edit />} />
           <Route path="/userprofile/:id" element={<Profile />} />
         </Routes>
-
-        <button className="btn">Hello World</button>
       </>
     </>
   );
