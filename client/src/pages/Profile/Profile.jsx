@@ -34,9 +34,8 @@ const Profile = () => {
               &nbsp;:- <span>Male</span>{" "}
             </h4>
             <h4>
-              <FontAwesomeIcon icon={faLocationDot} />
-              <i className="fa-solid fa-location-pin location"></i>&nbsp;:-{" "}
-              <span>Pabna 6620</span>
+              <FontAwesomeIcon className="location" icon={faLocationDot} />
+              &nbsp;:- <span>Pabna 6620</span>
             </h4>
             <h4>
               Status&nbsp;:- <span>Active</span>
